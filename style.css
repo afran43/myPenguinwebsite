@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font style code */
+title font style{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+description font style{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+     font-style: normal;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 291.11px;
+    height: 39.27px;
+}
+nav ul{
+    display: flex;
+    gap: 57px;
+}
+nav ul li{
+    font-size: 1rem;
+    font-weight: 400;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 116px;
+    padding-right: 130px;
+    align-items: center;
+    padding-top: 2rem;
+}
+header{
+    background-color: rgba(255, 251, 240, 1);
+}
+
+/* Hero section contener start */
+.hero-contener{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-contener .hero-left-item{
+    width: 416px;
+}
+.hero-left-item .hero-left-title{
+    font-size: 70px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.hero-left-item .hero-left-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.hero-left-item .primary-but{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    background-color: #85A019;
+    padding: 1rem 2rem ;
+    border-style: none;
+    border-radius: 10px;
+}
