@@ -1,84 +1,135 @@
+/* font style code  */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* font style code */
-title font style{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-description font style{
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-     font-style: normal;
-}
+/* Embed code end  */
+{
 
+
+. bebas-neue-regular
+  font-family: "Bebas Neue", sans-serif;
+
+. roboto:
+  font-family: "Roboto", sans-serif;
+  }
+
+/* Embed code end  */
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-.logo{
+/* nav bar start  */
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFBF0;
+    padding: 10px 80px;
+    overflow: hidden;
+}
+ nav .Contener{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
     width: 291.11px;
     height: 39.27px;
 }
-nav ul{
-    display: flex;
-    gap: 57px;
-}
-nav ul li{
-    font-size: 1rem;
-    font-weight: 400;
-    list-style: none;
-}
-nav ul li a{
+nav .Contener ul a{
     text-decoration: none;
+    padding: 5px 20px;
+    font-size: 1.2rem;
     color: black;
+    font-weight: 400;
+    text-transform: capitalize;
 }
-.navigationbar{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 116px;
-    padding-right: 130px;
-    align-items: center;
-    padding-top: 2rem;
+/* nav :hover start  */
+nav .Contener ul a:hover{
+    background-color: #FABE4C;
+    border-radius: 10px;
+    /* padding: 5px 20px; */
 }
-header{
-    background-color: rgba(255, 251, 240, 1);
-}
+/* nav :hover end  */
 
-/* Hero section contener start */
-.hero-contener{
+nav .Contener ul{
+    list-style: none;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 20px;
 }
+/* nav bar end  */
 
-.hero-contener .hero-left-item{
-    width: 416px;
+/* main-content start */
+
+.main-content{
+    height: 85%;
+    width: 100%;
+    display: flex;
+}
+.main-content .hero-left-item{
+    width: 60%;
+    padding-top: 100px;
+}
+.hero-left-item .hero-left-title span{
+    color: #FABE4C;
+}
+.hero-left-item .hero-left-title .ofWinte{
+    color: #363958;
 }
 .hero-left-item .hero-left-title{
-    font-size: 70px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 80px;
+    font-weight: 500;
 }
-.hero-left-item .hero-left-description{
-    font-size: 1rem;
+.hero-left-item p{
+    color: #3E3E3E;
+    font-size: 1.1rem;
     font-weight: 400;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
 }
 .hero-left-item .primary-but{
     font-size: 1rem;
     font-weight: 400;
+    padding: 10px 33px;
     color: white;
+    /* color: black; */
+    /* background-color: white; */
+    /* border: 1px solid #85A019; */
+    border: none;
     background-color: #85A019;
-    padding: 1rem 2rem ;
-    border-style: none;
     border-radius: 10px;
+    font-family: "Roboto", sans-serif;
 }
+
+.hero-left-item .primary-but2{
+    padding: 10px 33px;
+    color: black;
+    background-color: white;
+    border: 1px solid #85A019;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.hero-left-item .primary-but:hover{
+    background-color: #FABE4C;
+    color: black;
+}
+
+.hero-left-item .primary-but2:hover{
+    background-color: #FABE4C;
+    color: black;
+    border: 1px solid #FABE4C;
+}
+.main-content .hero-right-logo{
+    width: 50%;
+    height: 415px;
+
+    /* width: 549px;
+    height: 559px; */
+    padding-top: 40px;
+}
+
+/* main-content end */
