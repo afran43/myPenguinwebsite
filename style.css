@@ -118,7 +118,7 @@ nav .contener ul{
     background-color: #85A019;
     border-radius: 10px;
     font-family: "Roboto", sans-serif;
-    transition: 0.3s ease;
+    transition: 0.1s ease;
     
 }
 
@@ -132,7 +132,7 @@ nav .contener ul{
     font-size: 1rem;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
-    transition: 0.3s ease;
+    transition: 0.1s ease;
     
 }
 .hero-left-item .primary-but:hover{
@@ -160,76 +160,77 @@ nav .contener ul{
 
 /* main-content end */
 
-/* card style start  */
-.WomanJecket{
-    width: 90%;
-    height: 100vh;
-    margin-top: 40px;
-    margin-left: 60px;
+/* products card start  */
+.products-section{
+    width: 100%;
+    /* background-color: #df4040; */
+    padding: 20px 0 80px;
 }
-.WomanJecket h1{
-    margin-left: 50px;
+.product-contener{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.section-title{
     font-size: 48px;
     font-weight: 500;
+    color: #363958;
     font-family: "Bebas Neue", sans-serif;
-}
-.card-items{
-    display: flex;
-    justify-content: space-around;
+    margin-bottom: 21px;
 }
 
-.card{
-    margin-top: 20px;
-    width: 340px;
-    height: 550px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 20px #f0eeee;
-    align-items: center;
-    border: 10px solid #FFFFFF;
+.product-contener .product-card{
+    height: 620px;
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px #f3f1f1;
+    border: 2px solid #ffffff;
+    overflow: hidden;
+
 }
-.card .card-body{
-    margin: 10px;
+.product-contener .card-img-top{
+    width: 90%;
+    height: 400px;
+    padding: 30px;
+    border-color: #0a74df;
+    border-radius: 20px;
+    background-color: #F1F1F1;
+    margin: 20px;
 }
-.card-body .card-title{
+
+.card-body{
+    margin-left: 20px;
+} 
+.card-title{
     font-size: 24px;
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     color: #363958;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
 .card-body .card-text{
     font-size: 16px;
     font-weight: 400;
     color: #3E3E3E;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 }
-.card-body .price h2{
-    color: #FABE4C;
-    font-size: 36px;
-    font-weight: bold;
-}
-
-
-.card .card-img-top{
-    background-color:#e4e2e2;
-    width: 300px;
-    height: 340px;
-    border: 2px solid #e4e2e2;
-    border-radius: 10px;
-    margin-left: 10px;
-    padding: 10px;
-}
-.card .price{
+.card-body .price{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /* gap: 79px; */
+    font-size: 20px;
+    font-weight: bold;
+    color: #FABE4C;
+    font-family: "Roboto", sans-serif;
 }
-
-
-
-.card .primary-but{
+.price .primary-but{
+    margin-right: 15px;
     font-size: 1rem;
     font-weight: 400;
-    padding: 10px 33px;
+    padding: 18px 33px;
     color: white;
     /* color: black; */
     /* background-color: white; */
@@ -238,6 +239,10 @@ nav .contener ul{
     background-color: #85A019;
     border-radius: 10px;
     font-family: "Roboto", sans-serif;
-    transition: 0.3s ease;
-    
+    transition: 0.1s ease;
+}
+.products-grid{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
 }
