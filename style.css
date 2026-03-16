@@ -190,7 +190,7 @@
 .box-container{
     display: flex;
     justify-content: space-around;
-    grid-template-columns: repeat(1fr);
+    gap: 20px;
 
 }
 /* ------------product section end------------------ */
